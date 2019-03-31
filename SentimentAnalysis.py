@@ -54,4 +54,4 @@ def predict(twt):
     twt = tokenizer.texts_to_sequences(twt)
     twt = pad_sequences(twt, maxlen=28, dtype="int32", value=0)
     sentiment = model.predict(twt, batch_size=1, verbose=2)[0]
-    return ["negative", "neutral", "positive"][np.argmax(sentiment)]
+    return ["negative", "positive", "neutral"][np.argmax(sentiment)]

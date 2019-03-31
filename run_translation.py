@@ -7,6 +7,8 @@ from time import sleep
 import pyglet
 from sarcasm import predict_text
 import playsound
+import numpy as np
+
 def translate():
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -18,7 +20,7 @@ def translate():
     translation = evaluate(text)[0][:-6]
     sarcasm = predict_text(text)
     tts = gTTS(text=translation, lang='fr')
-    filename = 'temp.mp3'
+    filename = f'temp{text[0]}{np.random.randn()}.mp3'
     tts.save(filename)
     playsound.playsound(filename, True)
     os.remove(filename) #remove temperory file

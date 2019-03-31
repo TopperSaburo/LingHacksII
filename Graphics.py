@@ -9,7 +9,7 @@ class Application(tk.Frame):
 
     def create_widgets(self):
         self.hi_there = tk.Button(self)
-        self.hi_there["text"] = "Hello World\n(click me)"
+        self.hi_there["text"] = "Click me to say English! Once clicked, speak into the mic"
         self.hi_there["command"] = self.say_hi
         self.hi_there.pack(side="top")
 
@@ -18,7 +18,10 @@ class Application(tk.Frame):
         self.quit.pack(side="bottom")
 
     def say_hi(self):
-        self.message = tk.Message(self.master, text=translate())
+        output_string = ""
+        for key, value in translate().items():
+            output_string += f"{key}: {value}, \n"
+        self.message = tk.Message(self.master, text=output_string)
         self.message.pack()
 
 root = tk.Tk()

@@ -1,4 +1,5 @@
-## Universal Speech
+# Universal Speech
+## Providing an exhaustive resource for those in need
 Application
 The application for our hack is for the travel industry. It allows travelers to easily translate the local language, in this case english to french, and provide a summary and some insight about the language being said. Often it is hard for a foreigner to understand the idiomatic and sarcastic expressions of a language, especially one like english which has had decades of redditors who have been developing new slang and sarcastic phrases. The more global use case for this hack is for anyone who struggles with understanding the local language.
 

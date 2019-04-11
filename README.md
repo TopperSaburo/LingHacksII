@@ -1,6 +1,4 @@
-#UinversalSpeech 
-##Providing an exhaustive resouce for those in need. 
-
+## Universal Speech
 Application
 The application for our hack is for the travel industry. It allows travelers to easily translate the local language, in this case english to french, and provide a summary and some insight about the language being said. Often it is hard for a foreigner to understand the idiomatic and sarcastic expressions of a language, especially one like english which has had decades of redditors who have been developing new slang and sarcastic phrases. The more global use case for this hack is for anyone who struggles with understanding the local language.
 
@@ -32,11 +30,4 @@ What we learned
 We learned about the multiple deep learning strategies used in NLP. # of us completely learned python from scratch and how to build a simple GUI. We also learned how important it is to know how to use APIs in python as opposed to "reinventing the wheel"
 
 What's next for Comprehensive Translator
-Abstractive summarization, accents in ascii encoding, more language options and Optical Character Recognition could be paired with the translator to translate written/printed text with more functionality and comprehensibility. These features will allow for a more comprehensive result, that is likely to give much more information to the new english speaker. Such a translator is both easy to use, and runs in real time (about 3 seconds). This runtime can be sped up by migrating all apis on the local computer instead of relying on internet speeds to access the api through python.
-
-Built With
-python
-tensorflow
-keras
-Try it out
-GitHub Repo
+Abstractive summarization, accents in ascii encoding, more language options and Optical Character Recognition could be paired with the translator to translate written/printed text with more functionality and comprehensibility. These features will allow for a more comprehensive result, that is likely to give much more information to the new english speaker. Such a translator is both easy to use, and runs in real time (about 3 seconds). This runtime can be sped up by migrating all apis on the local computer instead of relying on internet speeds to access the api through python. 

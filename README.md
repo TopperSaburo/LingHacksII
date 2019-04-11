@@ -21,14 +21,14 @@ The code for the sarcasm detector was completely from scratch, using text input 
 SENTIMENT ANALYSIS
 We used the Keras Library which allows us to scan and remove all special symbols and syntax from the text file. After using Tockenizer to convert to vectors, the algorithm will output positive, neutral, or negative sentiment. This algorithm was trained on Twitter GOP Debate Dataset.
 
-Challenges we ran into
+CHALLENGES WE RAN INTO
 Throughout this project, we frequently ran into problems such as a difficulty in training the sarcasm detector due to the ambiguity of the data, and the model frequently learned to simply output a single class without actually ever outputting the second class. It was also difficult to install some dependancies of the code onto the mac due to lack of admin access, but this was worked around using a different machine and a usb. Another issue we ran into was that karas would not correctly save the model.h5 file as a checkpoint, so we had to run the training of the sentiment classifier on a different device. The primary challenge was finding enough memory to load the full datasets.
 
-Accomplishments that we're proud of
+ACCOMPLISHMENTS THAT WE'RE PROUD OF
 We are proud of the numerous APIs we were able to integrate into our hack, and proud of the success of our machine translation system. We are also proud of being able to use the latest version of tensorflow, 2.0.0 which completely changed the dynamics of our code.
 
-What we learned
+WHAT WE LEARNED 
 We learned about the multiple deep learning strategies used in NLP. # of us completely learned python from scratch and how to build a simple GUI. We also learned how important it is to know how to use APIs in python as opposed to "reinventing the wheel"
 
-What's next for Comprehensive Translator
+WHAT'S NEXT FOR UNIVERSALSPEECH
 Abstractive summarization, accents in ascii encoding, more language options and Optical Character Recognition could be paired with the translator to translate written/printed text with more functionality and comprehensibility. These features will allow for a more comprehensive result, that is likely to give much more information to the new english speaker. Such a translator is both easy to use, and runs in real time (about 3 seconds). This runtime can be sped up by migrating all apis on the local computer instead of relying on internet speeds to access the api through python. 
